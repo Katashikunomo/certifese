@@ -1,0 +1,11 @@
+.flcards{
+    /* border: 15px solid black !important; */
+    box-shadow: 0px 1px 2px #000 !important;
+    transition: all ease-in-out 0.2s;
+}
+.flcards:hover{
+    
+    /* box-shadow: 0px 1px 2px #000 !important; */
+    box-shadow: 1px 2px 12px #00727C,-1px -1px 15px #00727C !important;
+    transition: all ease-in-out 0.2s;
+}
