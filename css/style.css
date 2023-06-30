@@ -108,6 +108,11 @@ li.sangriaLista {
     
     margin-right: 3em;
 }
+.sangriadDivIzq
+{
+    
+    margin-left: 15px;
+}
 .sangriaPrimerDiv
 {
     margin-left: 4em;
@@ -127,6 +132,8 @@ li.sangriaLista {
 {
     color: #00727C; 
 }
+
+
 
 
 
