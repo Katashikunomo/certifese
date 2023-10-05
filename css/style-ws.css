@@ -113,3 +113,30 @@ resize: none;
 .centrar-div{
     margin-top: 300px;
 }
+
+/* Certificados estilos */
+
+.certificado-style{
+    box-shadow: 0px 0px 10px #000 !important; border-radius: 20px; height: 90%; margin-right: 5px; margin-bottom: 6px;
+    border-bottom:10px solid transparent ;
+    transition: all linear 0.4s;
+    animation: resp 1s ease infinite !important;
+    border-left: 10px solid red;
+}
+.certificado-style:hover{
+    /* margin-bottom: 0px; */
+    border-bottom: 10px solid red;
+    border-left: 10px solid transparent;
+    content: "Contactar";
+    color: red;
+
+    
+}
+
+/* .certificado-style:hover::before{
+    font-weight: bold;
+    color: red; */
+    /* align-items: center; */
+    /* text-align: center;
+    content: "";
+} */
