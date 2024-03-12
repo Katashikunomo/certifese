@@ -244,7 +244,7 @@ resize: none;
 }
 /* ESTILOS PARA EL HEIGHT DEL CARRUSEL */
 .h-carousel{
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .prev-button, .next-button {
