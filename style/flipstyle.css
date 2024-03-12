@@ -1,0 +1,113 @@
+.wrap{
+    width: 100%;
+    /* max-width: 1300px; */
+    margin-bottom: 2px;
+    padding-bottom: 200px;
+    min-height: 100vh;
+}
+
+.tarjeta-wrap{
+    width: 240px;
+    height: 240px;
+    /* background-position:center; 
+    background-size: cover;  */
+    /* border-radius: 20px; */
+    margin: 10px ;
+    margin-bottom: 20px; 
+    -webkit-perspective: 400;
+    perspective: 400 !important;
+}
+
+.tarjeta{
+    background: #000;
+    color: #fff;
+    width: 240px;
+    height: 240px;
+    /* background-position:center; 
+    background-size: cover;  */
+    border-radius: 20px;
+    /* margin: 100px ; */
+    margin-bottom: 10px; 
+    transform-style: preserve-3d;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+.adelante{
+    background-position:center !important; 
+    background-size: cover; 
+    border-radius: 20px;
+    /* margin: 10px;
+    margin-top: 0px;
+    margin-left: 15px; */
+    z-index: 1000;
+
+}
+.adelante:hover{
+    box-shadow: 10px 0px 12px #000;
+}
+.atras,.adelante{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "open sans";
+    box-shadow: 0px 0px 12px #000;
+    border-radius: 22px;
+}
+
+.atras{
+    color: #fff;
+    transform: rotateY(-180deg);
+    box-shadow: 0px 10px 12px #000;
+    background-position: center; 
+    background-size: cover;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+    transform: rotateY(-180deg);
+}
+
+@media (max-width:990px) {
+    .tarjeta-wrap{
+        margin: 60px;
+        /* margin-bottom: 20px; */
+    }
+}
+
+@media (max-width:770px) {
+    .tarjeta-wrap{
+        margin: auto;
+        margin-bottom: 20px ;
+    }
+}
+
+@media (max-width:720px) {
+    .tarjeta-wrap{
+        margin: auto;
+        margin-bottom: 20px ;
+    }
+}
+
+
+.btn-primary-red{
+    background: #d81212;
+    color: #fff;
+    margin-top: -80px;
+    width: 50%;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.btn-primary-red:hover{
+    box-shadow: 0 0 10px #000;
+    /* color: aquamarine; */
+}
