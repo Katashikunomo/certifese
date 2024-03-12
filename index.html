@@ -40,6 +40,19 @@
     <link rel="stylesheet" href="style/flipstyle.css">
     <!-- Incrustaciones -->
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    <style>
+        .bg-primary{
+            background-color: #b00404;
+        }
+
+       @media (min-width:760px) {
+        .h-banner{
+         margin-top: -10px;
+         height: 6vh !important;   
+        }
+       }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90" class="side-nav">
@@ -167,34 +180,70 @@
 </header>
 <!-- end header -->
 
+<style>
+    .carousel-slide {
+    background-color: #00727C; /* Color de fondo */
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Degradado transparente a la derecha */
+    background-position: right; /* Posición de la imagen de fondo */
+    background-size: cover; /* Tamaño de la imagen de fondo */
+    background-attachment: fixed; /* Fijar la imagen de fondo */
+}
+</style>
 
 <!-- start slider -->
-<section id="home" class="no-padding  h-carousel" > <!-- Se pone a la mitad el height respetando el diseño propuesto-->
+<section id="home" class="  h-carousel" style="height: 70vh !important;"> <!-- Se pone a la mitad el height respetando el diseño propuesto-->
 
-    <div class="carousel-container h-carousel " >
-        <div class="carousel-slide parallax" style="background-image: url('images/index/BeneficiosEmpresas.webp');">
-                <div class="text-center texto-carrusel" >
-                    <h3>Potencia tu perfil profesional con nuestra entidad certificadora.</h3>
-                    <p>
-                        <b>
-                            Desarrolla tu máximo potencial, construye cimientos sólidos y abre puertas hacia el éxito.
-                        </b>
-                    </p>
-                    <div class="text-center">
-                        <button type="button" class="btn bg-blue btn-primary" data-toggle="modal" data-target="#exampleModal" style="border-radius: 12px; box-shadow: 1px 1px 10px #000;">
-                          Contactanos
-                      </button>
+    <div class="carousel-container h-carousel "  >
+
+        <div class="carousel-slide parallax img-fluid" style="background-image: url('images/logos_ece/Genérico\ A.jpg'); background-position: right; ">
+            <div class="text-center texto-carrusel" >
+                
+                <p>
+                    
+                    <div class=" col-sm-4 col-md-4">
+                        <div style="border-radius: 12px; box-shadow: 1px 2px 10px #ccc; background: #00727C;" >
+                            <div class="card hidden-scroll">
+                                <div class="card-body" style="border-radius: 12px; ">
+                                    <h4 class="card-title  text-center bg-primary text-light text-medium" style="padding: 15px; border-radius: 12px 12px 0px 0px;" >Mejora la empleabilidad</h4>
+                                    <p class="card-text text-center" style="padding: 0px 12px 25px 12px; font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur nostrum cum laudantium eos ea facilis molestiae, vero possimus, rerum iusto rem aliquam! Ex voluptas enim quidem. Laudantium, ab quaerat.</p>
+                                    <div class="text-center">
+                                        <button type="button" class="btn bg-blue btn-primary" data-toggle="modal" data-target="#exampleModal" style="border-radius: 12px; box-shadow: 1px 1px 10px #000;">
+                                          Contactanos
+                                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
-                </div>
+                </p>
+
+
+            </div>
         </div>
-        <div class="carousel-slide parallax" style="background-image: url('images/index/Certificaciones-EC.PNG');">
+        <div class="carousel-slide parallax" style="background-image: url('images/logos_ece/Genérico\ B.jpg');">
             <div class="text-center texto-carrusel" >
                 <h3>Potencia tu perfil profesional con nuestra entidad certificadora.</h3>
+                <p>
+                    
+                    <div class=" col-sm-4 col-md-4">
+                        <div style="border-radius: 12px; box-shadow: 1px 2px 10px #ccc;" >
+                            <div class="card hidden-scroll">
+                                <div class="card-body" style="border-radius: 12px; ">
+                                    <h4 class="card-title  text-center bg-primary text-light text-medium" style="padding: 15px; border-radius: 12px 12px 0px 0px;" >Mejora la empleabilidad</h4>
+                                    <p class="card-text text-center" style="padding: 0px 12px 25px 12px; font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur nostrum cum laudantium eos ea facilis molestiae, vero possimus, rerum iusto rem aliquam! Ex voluptas enim quidem. Laudantium, ab quaerat.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </p>
+                <!-- <h3>Potencia tu perfil profesional con nuestra entidad certificadora.</h3>
                 <p>
                     <b>
                         Desarrolla tu máximo potencial, construye cimientos sólidos y abre puertas hacia el éxito.
                     </b>
-                </p>
+                </p> -->
                 <div class="text-center">
                     <button type="button" class="btn bg-blue btn-primary" data-toggle="modal" data-target="#exampleModal" style="border-radius: 12px; box-shadow: 1px 1px 10px #000;">
                       Contactanos
@@ -202,7 +251,7 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-slide parallax" style="background-image: url('images/index/entidad-certificadora-certificaciones2.PNG');">
+        <div class="carousel-slide parallax" style="background-image: url('images/logos_ece/Genérico\ C.jpg');">
             <div class="text-center texto-carrusel" >
                 <h3>Potencia tu perfil profesional con nuestra entidad certificadora.</h3>
                 <p>
@@ -273,16 +322,46 @@
         </div>
       </div> 
 </section> -->
+<style>
+    @media (min-width:992px) {
+        .h-first-section{
+        height: 700px;
+        }
+    }
+    .btn-primary{
+    background: #00727C;
+    border-radius: 12px;
+    margin-top: 10px;
+    }
+    .btn-primary:hover{
+        background: #b00404;
+    }
+</style>
 
-<section id="about" class="container hidden-scroll" style=" margin-top: -100px;  padding-top: 100px;">
+<section id="about" class="container hidden-scroll h-first-section" style=" margin-top: -100px;  padding-top: 100px; ">
     <div class="row container-fluid">
-        <div class="col-md-6">
+        <div class="col-md-8">
             <br>
-            <small><b>¿</b></small>
+            <p>
+                <small><b class="text-red">¿QUÉ ES FESE: ENTIDAD DE CERTIFICACIÓN Y EVALUACIÓN?</b></small>
+            </p>
+            <h5> Aprendizaje y crecimiento continuo</h5>
+            <p>
+                La fundación Educación Superior Empresa (FESE) como <b>Entidad de Certificación y Evaluación (ECE)</b> busca capacitar, evaluar y certificar competencias en base a los <b>Estándares de Competencia</b> inscritos en el Registro Nacionalde Estándares de Competencia <b>(RENEC)</b>.
+            </p>
+            <p>
+                Con esta labor, la <b>FESE</b> busca brindar oportunidades de formación y certificación a <b>estudiantes, instituciónes</b> de educación superior y <b>empresas;</b> todo ello con el fin de fortalecer el capital humano del pais, favorecer el crecimiento profesional de los jovénes estudiantes y favorecer su inserción laboral.
+            </p>
+            <p>
+                <b>¿Quieres que un documento con validez nacional respalde tus competencias?</b> <br>
+                <b>Nosotros podemos apoyarte.</b> <br>
+                <a href="#" class="btn btn-primary">Conoce las competencias que certificamos</a>
+            </p>
+            
         </div>
 
-        <div class="col-md-6 img-fluid">
-            <img src="images/index/BeneficiosEmpresas.webp" style="height: 50vh;" alt="">
+        <div class="col-md-4 img-fluid">
+            <img src="images/index/BeneficiosEmpresas.webp" style="height: 600px;" alt="">
         </div>
     </div>
     <!-- <div class="parallax " style="background-image: url('images/logos/fondo.svg'); width: 100%; padding: 20px; ">
@@ -330,12 +409,11 @@
 </section>
 <!-- Cierra parallax -->
 <!--Fin Acerca de -->  
-<section class=" hidden-scroll" style="background: #b00404;" >
+<section class=" hidden-scroll" style="background: #b00404; " >
 
-    <div class="container text-light text-center m-auto " style="height: 6vh; margin-top: -80px;" >
-        <h5><b>¿Quieres que un documento con validez nacional respalde tus competencias?</b></h5>
-        
-        <h5>nosotros podemos ayudarte</h5>
+    <div class="container-fluid text-light text-center  h-banner" style="min-height: 6vh;" >
+        <h6 style="font-size: 19px !important;"><b>¿Quieres que un documento con validez nacional respalde tus competencias?</b></h6>
+        <h6 style="font-size: 15px !important;">nosotros podemos ayudarte</h6>
     </div>
 
 </section>
@@ -362,15 +440,145 @@
     </div>
 </section>
 
-<section>
-    <div class="container hidden-scroll">
-        <div class="text-center">
-            <h5 class="text-center"><b class="text-red" >¿Qué beneficios tiene certificar tus competencias?</b></h5>
-            <b style="border-radius: 22px; border-bottom: 8px solid #00727C; display: inline-flex; width: 40%;;"></b>
+
+<section style="margin-top: -80px; box-shadow: 0px 10px 10px #000 !important;">
+    <div class="container" >
+        <div class="container hidden-scroll">
+            <div class="text-center">
+                <h5 class="text-center"><b class="text-red" >¿Qué beneficios tiene certificar tus competencias?</b><b style="border-radius: 22px; border-bottom: 8px solid #00727C; display: inline-flex; width: 40%; "></b></h5>
+                
+                <br>
+            </div>
+        </div>
+        <div class="row hidden-scroll">
+            <div class=" col-sm-6 col-md-4">
+                <div style="border-radius: 12px; box-shadow: 1px 2px 10px #ccc;" >
+                    <div class="card hidden-scroll">
+                        <div class="card-body" style="border-radius: 12px; ">
+                            <h4 class="card-title  text-center bg-primary text-light text-medium" style="padding: 15px; border-radius: 12px 12px 0px 0px;" >Mejora la empleabilidad</h4>
+                            <p class="card-text text-center" style="padding: 0px 12px 25px 12px; font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur nostrum cum laudantium eos ea facilis molestiae, vero possimus, rerum iusto rem aliquam! Ex voluptas enim quidem. Laudantium, ab quaerat.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-X-Small-3 col-sm-6 col-md-4">
+                <div style="border-radius: 12px; box-shadow: 1px 2px 10px #ccc;" >
+                    <div class="card hidden-scroll">
+                        <div class="card-body" style="border-radius: 12px; ">
+                            <h4 class="card-title  text-center bg-primary text-light text-medium" style="padding: 15px; border-radius: 12px 12px 0px 0px;" >Mejora la empleabilidad</h4>
+                            <p class="card-text text-center" style="font-size: 15px; padding: 0px 12px 25px 12px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur nostrum cum laudantium eos ea facilis molestiae, vero possimus, rerum iusto rem aliquam! Ex voluptas enim quidem. Laudantium, ab quaerat.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-X-Small-3 col-sm-6 col-md-4">
+                <div style="border-radius: 12px; box-shadow: 1px 2px 10px #ccc;" >
+                    <div class="card hidden-scroll">
+                        <div class="card-body" style="border-radius: 12px; ">
+                            <h4 class="card-title  text-center bg-primary text-light text-medium" style="padding: 15px; border-radius: 12px 12px 0px 0px;" >Mejora la empleabilidad</h4>
+                            <p class="card-text text-center" style="padding: 0px 12px 25px 12px; font-size: 15px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequuntur nostrum cum laudantium eos ea facilis molestiae, vero possimus, rerum iusto rem aliquam! Ex voluptas enim quidem. Laudantium, ab quaerat.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
+<section  style="background: #E5E4E4; min-height: 50vh; box-shadow: inset 1px  0 3px 3px  #0006; margin: auto;">
+    
+
+    <div class="card mb-3" style="max-width: 980px;  margin: auto;"  >
+        <div class="row " >
+            <div class="col-sm-8 col-md-6  text-center" style="max-width: 330px !important;  margin: auto;" >
+                <img
+                    src="images/Logo Red-06.png"
+                    class="img-fluid rounded-start"
+                    alt="Card title" style="max-width: 170px !important;"
+                />
+                <div class="col-sm-12 col-md-12">
+                    <div style="border-radius: 12px; box-shadow: 1px 2px 10px #ccc;" >
+                        <div class="card hidden-scroll">
+                            <div class="card-body bg-white text-small text-center" style="border-radius: 12px; padding: 12px;">
+                                <!-- <h4 class="card-title  text-center bg-primary text-light text-medium" style="padding: 15px; border-radius: 12px 12px 0px 0px;" >Mejora la empleabilidad</h4> -->
+                                
+                                <p>
+                                    <b class="text-red">Horario de atención</b> <br>
+                                    <small>
+                                        Lunes a jueves de 9:00 a 16:30 horas y vierdes de 9:00 a 15:00 horas
+                                    </small>
+                                </p>
+                                <p>
+                                    <b class="text-red">Teléfonos</b> <br>
+                                    <small>
+                                        01 800 288 2666 <br>
+                                        55 22 82 02 00
+                                    </small>
+                                </p>
+
+                                <p>
+                                    <b class="text-red">Correo electrónico</b> <br>
+                                    <small>
+                                        <a href="mailto:contacto@conocer.gob.mx">contacto@conocer.gob.mx</a>
+                                    </small>
+                                </p>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-8 " style=" padding: 60px 0px; font-size: 12px !important; " >
+                <div class="container-fluid">
+                    <div class="col-md-12  card-body">
+                        <h6 class="card-title">
+                            <small>
+                                <b class="text-red">¿QUÉ ES EL CONOCER?</b>
+                            </small>
+                        </h6>
+                        <h5>Compromiso con el desarrollo laboral.</h5>
+                        <p class="card-text">
+                            El Consejo Nacional de Normalización y Certificación de Competencias Laborales  <b>(CONOCER)</b> es un organismo representado por trabajadores, empresarios y el gobierno mexicano. Se encarga de promover la agenda de capital humano de México para la competitividad y productividad.
+                        </p>
+                        <p class="card-text">
+                            Toda Entidad de Certificación y Evaluación <b>(ECE)</b>, incluyéndonos, está inscrita a la normatividad establecida por el <b>CONOCER</b>, en un compromiso por promover el fortalecimiento de la competitividad nacional para favorecer a trabajadores y empresas.
+                        </p>
+                        <p class="card-text">
+                            Si deseas conocer más, puedes visitar su página web: <a href="https://conocer.gob.mx">https://conocer.gob.mx</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- <div class="row container-fluid " style="border: 2px solid #000;">
+        <div class="col-md-6 container" style="border: 2px solid #b00404;">
+            <div class="card">
+                <img class="card-img-top " src="images/Logo Red-06.png" style="width: 220px ;" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 container" style="border: 2px solid #00727C;">
+            <div class="card">
+                <img class="card-img-top " src="images/Logo Red-06.png" style="width: 220px ;" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+</section>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -414,807 +622,16 @@
     </div>
 </div>
 
-<!-- start feature -->
-<section id="feature" class="how-it-work text-center  no-transition"> <!----------------ESTO ES UAN SECCION DEL MENU----------------------->
-   
-        <div class="container ">
-        
-        <div class="row">
-            <div class="col-lg-9 text-center center-col hidden-scroll">
-                <div class="sec-title margin-100px-bottom">
-                    <div class="text-large color_titulo margin-10px-bottom font-weight-400 ">
-                        <strong>Estándares</strong>
-                    </div>
-                    <h3 class=" alt-font text-extra-dark-gray font-weight-300">
-                        <strong>Estándares de competencia disponibles</strong> 
-                    </h3>
-                    <p class="width-75 margin-lr-auto md-width-90 xs-width-100 xs-margin-30px-bottom   text-extra-dark-gray">  <!--BREVE EXPLICACION DEL LA SECCION DE RESUMEN--------------------------->
-                        La Fundación trabaja en beneficio de tres públicos meta, los
-                        estudiantes que reciben apoyo, las instituciones de educación
-                        superior como herramienta de vinculación y las empresas que son
-                        el motor de operación.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-12 row hidden-scroll">
-                <h3 class="h4"><b>Selección por categoria  <i>en el sector productivo</i> </b></h3>
-                <div class="category_list hidden-scroll " >
-                    <a href="#al" class="hidden-scroll "  >
-                        <button class="category_Item " category="all" > Todos</button>
-                    </a>
-                    <a href="#al" class="hidden-scroll ">
-                        <button class="category_Item " category="servicios-profesionales-cientificos-tecnicos" > Servicios profesionales, cientificos y técnicos</button>
-                    </a>
-                    <a href="#al" class="hidden-scroll ">
-                        <button class="category_Item " category="actividadeslegistalivas-gubernamentales-deimparticiondejusticia" > Actividades legislativas, gubernamentales, de imparticion de justicia y de organismos internacionales y extraterritoriales</button>
-                    </a>
-                    <a href="#al" class="hidden-scroll ">
-                        <button class="category_Item " category="informacion-en-medios-masivos" > Información en medios masivos</button>
-                    </a>
-                    <a href="#al" class="hidden-scroll ">
-                        <button class="category_Item " category="servicios-educativos" > Servicios Educativos  </button>
-                    </a>
-                    <!-- <a href="#" class="category_Item " category="all">Todos</a>
-                    <a href="#" class="category_Item " category="sociales">Sociales</a>
-                    <a href="#" class="category_Item " category="tecnologi">Tecnologicas</a> -->
-                </div>
-                
-            </div>
-        </div>
-
-        
-        <!-- <hr id="sc" name="sc">
-        <hr id="tc" name="tc"> -->
-
-        <hr id="al" name="al" >
-        <br>
-        <div class="row container m-auto hidden-scroll">
-
-            <!--how it work Box-->
-            <div class="col-md-3 col-sm-6  card_altura product-item hidden-scroll" category="servicios-profesionales-cientificos-tecnicos">
-                <div class="how-box-one inner-box xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i><!--https://fontawesome.com/v4/icons/-- ESTA ES UNA LISTA DE LOS ICONOS QUE PODEMOS USAR>-->
-                    </div>
-                    <div class="text-large  text-extra-dark-gray">
-                        <strong class="text-center">EC0076</strong>
-                        <p class="small">Evaluación de la competencia de candidatos con base en Estándares de Competencia</p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        <p>
-                            <a class="btn btn-primary" href="certificados/EC0076.pdf" target="_blank">
-                              Descargar Ficha
-                            </a>
-                          </p>
-                          
-                    </p>
-                </div>
-            </div>
-            <!--how it work Box-->
-            <div class="col-md-3 col-sm-6  card_altura product-item hidden-scroll" category="actividadeslegistalivas-gubernamentales-deimparticiondejusticia" >
-                <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-university" aria-hidden="true"><i class="fa fa-street-view" aria-hidden="true"></i></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                       <strong> EC0105</strong>
-                       <p>Atención al ciudadano en el sector público</p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        
-                        <p>
-                            <a class="btn btn-primary" href="certificados/EC0105.pdf" target="_blank">
-                                Descargar Ficha
-                              </a>
-                          </p>
-                          
-                    </p>
-                </div>
-            </div>
-            <!--how it work Box-->
-            <div class="col-md-3 col-sm-6  card_altura  product-item hidden-scroll" category="informacion-en-medios-masivos">
-                <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-building" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                       <strong> EC0190</strong>
-                       <p>Manejo de aplicaciones e información en equipo de cómputo, nivel básico</p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        
-                        <p>
-                            <a class="btn btn-primary" href="certificados/EC0190.pdf" target="_blank">
-                                Descargar Ficha
-                              </a>
-                            <!-- <button class="btn btn-primary " type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                              ver
-                            </button> -->
-                          </p>
-                         
-                    </p>
-                </div>
-            </div>
-           <!--how it work Box-->
-            <div class="col-md-3 col-sm-6 card_altura product-item hidden-scroll" category="servicios-educativos">
-            <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                <div class="icon-box bg-blue">
-                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    
-                </div>
-                <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                <strong> EC0217.01</strong>
-                <p>Impartición de cursos de formación del capital humano de manera presencial grupal</p>
-                </div>
-                <p class="text-extra-dark-gray">
-                    
-                    <p>
-                        <a class="btn btn-primary" href="certificados/EC0217.01.pdf" target="_blank">
-                            Descargar Ficha
-                        </a>
-                    </p>
-                    
-                </p>
-            </div>
-            </div>
-            <!--how it work Box-->
-            <div class="col-md-3 col-sm-6  card_altura product-item hidden-scroll" category="servicios-profesionales-cientificos-tecnicos">
-                <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-building" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                    <strong> EC0249</strong>
-                    <p>Proporcionar servicios de consultoría general</p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        
-                        <p>
-                            <a class="btn btn-primary" href="certificados/EC0249.pdf" target="_blank">
-                                Descargar Ficha
-                            </a>
-                        </p>
-                        
-                    </p>
-                </div>
-            </div>
-            <!--how it work Box-->
-            <div class="col-md-3 col-sm-6  card_altura product-item hidden-scroll" category="servicios-educativos">
-                <div class="how-box-one inner-box xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-large  text-extra-dark-gray margin-35px-bottom">
-                        <strong class="text-center">EC0366</strong>
-                        <p>Desarrollo de cursos de formación en línea</p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        <p>
-                            <a class="btn btn-primary" href="certificados/EC0366.pdf" target="_blank">
-                            Descargar Ficha
-                            </a>
-                        </p>
-                    </p>
-                </div>
-            </div>
-        
-            <!-- -----------------3 ---------------- -->
-                    <!--how it work Box-->
-                    <div class="col-md-3 col-sm-6 card_altura product-item hidden-scroll" category="servicios-profesionales-cientificos-tecnicos">
-                        <div class="how-box-one inner-box xs-margin-100px-bottom">
-                            <div class="icon-box bg-blue">
-                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                            </div>
-                            <div class="text-large  text-extra-dark-gray margin-35px-bottom">
-                                <strong class="text-center">EC0782</strong>
-                                <p >Aplicación de habilidades genéricas para la competitividad laboral </p>
-                            </div>
-                            <p class="text-extra-dark-gray">
-                                <p>
-                                    <a class="btn btn-primary" href="certificados/EC0782.pdf" target="_blank">
-                                      Descargar Ficha
-                                    </a>
-                                </p>
-                            </p>
-                        </div>
-                    </div>
-                    <!--how it work Box-->
-                    <div class="col-md-3 col-sm-6 card_altura  product-item hidden-scroll" category="servicios-profesionales-cientificos-tecnicos">
-                        <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                            <div class="icon-box bg-blue">
-                                <i class="fa fa-building" aria-hidden="true"></i>
-                            </div>
-                            <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                            <strong> EC0887</strong>
-                            <p class="small">Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios</p>
-                            </div>
-                            <p class="text-extra-dark-gray">
-                                
-                                <p>
-                                    <a class="btn btn-primary" href="certificados/EC0887.pdf" target="_blank">
-                                        Descargar Ficha
-                                    </a>
-                                </p>
-                                
-                            </p>
-                        </div>
-                    </div>
-                    <!--how it work Box-->
-                    <div class="col-md-3 col-sm-6 card_altura product-item hidden-scroll" category="servicios-educativos">
-                        <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                            <div class="icon-box bg-blue">
-                                <i class="fa fa-building" aria-hidden="true"></i>
-                            </div>
-                            <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                            <strong> EC1002</strong>
-                            <p>Gestión de la vinculación en la formación dual</p>
-                            </div>
-                            <p class="text-extra-dark-gray">
-                                
-                                <p>
-                                    <a class="btn btn-primary" href="certificados/EC1002.pdf" target="_blank">
-                                        Descargar Ficha
-                                    </a>
-                                </p>
-                                
-                            </p>
-                        </div>
-                    </div>
-             
-
-        </div>
-        
-        </div>
-        <hr>
-        <!--Se agrega un container para que no se desborden los elementos de las cards de estandares 2 >>>>>>>>>-->
-        <div class="container ">
-            <div class="how-one-container">
-                
-                <!--how it work Box-->
-                <!-- <div class="col-md-4 col-sm-6 col-xs-12 product-item" category="sociales">
-                    <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                        <div class="icon-box bg-blue">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                            
-                        </div>
-                        <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                        <strong> EC0217.01</strong>
-                        <p>Impartición de cursos de formación del capital humano de manera presencial grupal</p>
-                        </div>
-                        <p class="text-extra-dark-gray">
-                            
-                            <p>
-                                <a class="btn btn-primary" href="certificados/EC0217.01.pdf" target="_blank">
-                                    Descargar Ficha
-                                </a>
-                            </p>
-                            
-                        </p>
-                    </div>
-                </div> -->
-                <!--how it work Box-->
-                <!-- <div class="col-md-4 col-sm-6 col-xs-12 product-item" category="sociales">
-                    <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                        <div class="icon-box bg-blue">
-                            <i class="fa fa-building" aria-hidden="true"></i>
-                        </div>
-                        <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                        <strong> EC0249</strong>
-                        <p>Proporcionar servicios de consultoría general</p>
-                        </div>
-                        <p class="text-extra-dark-gray">
-                            
-                            <p>
-                                <a class="btn btn-primary" href="certificados/EC0249.pdf" target="_blank">
-                                    Descargar Ficha
-                                </a>
-                            </p>
-                            
-                        </p>
-                    </div>
-                </div> -->
-                <!--how it work Box-->
-                <!-- <div class="col-md-4 col-sm-6 col-xs-12 product-item" category="tecnologi">
-                    <div class="how-box-one inner-box xs-margin-100px-bottom">
-                        <div class="icon-box bg-blue">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                        </div>
-                        <div class="text-large  text-extra-dark-gray margin-35px-bottom">
-                            <strong class="text-center">EC0366</strong>
-                            <p>Desarrollo de cursos de formación en línea</p>
-                        </div>
-                        <p class="text-extra-dark-gray">
-                            <p>
-                                <a class="btn btn-primary" href="certificados/EC0366.pdf" target="_blank">
-                                  Descargar Ficha
-                                </a>
-                            </p>
-                        </p>
-                    </div>
-                </div> -->
 
 
-            </div>
-        </div>
-        <hr>
-        <!--Se agrega un container para que no se desborden los elementos de las cards de estandares 3 >>>>>>>>>>-->
-        <div class="container ">
-            <div class="how-one-container">
-                
-                 <!--how it work Box-->
-                 <!-- <div class="col-md-4 col-sm-6 col-xs-12 product-item" category="sociales">
-                    <div class="how-box-one inner-box xs-margin-100px-bottom">
-                        <div class="icon-box bg-blue">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                        </div>
-                        <div class="text-large  text-extra-dark-gray margin-35px-bottom">
-                            <strong class="text-center">EC0782</strong>
-                            <p >Aplicación de habilidades genéricas para la competitividad laboral </p>
-                        </div>
-                        <p class="text-extra-dark-gray">
-                            <p>
-                                <a class="btn btn-primary" href="certificados/EC0782.pdf" target="_blank">
-                                  Descargar Ficha
-                                </a>
-                            </p>
-                        </p>
-                    </div>
-                </div> -->
-                <!--how it work Box-->
-                <!-- <div class="col-md-4 col-sm-6 col-xs-12 product-item" category="sociales">
-                    <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                        <div class="icon-box bg-blue">
-                            <i class="fa fa-building" aria-hidden="true"></i>
-                        </div>
-                        <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                        <strong> EC0887</strong>
-                        <p>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios</p>
-                        </div>
-                        <p class="text-extra-dark-gray">
-                            
-                            <p>
-                                <a class="btn btn-primary" href="certificados/EC0887.pdf" target="_blank">
-                                    Descargar Ficha
-                                </a>
-                            </p>
-                            
-                        </p>
-                    </div>
-                </div> -->
-                <!--how it work Box-->
-                <!-- <div class="col-md-4 col-sm-6 col-xs-12 product-item" category="sociales">
-                    <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                        <div class="icon-box bg-blue">
-                            <i class="fa fa-building" aria-hidden="true"></i>
-                        </div>
-                        <div class="text-large text-extra-dark-gray margin-35px-bottom">
-                        <strong> EC1002</strong>
-                        <p>Gestión de la vinculación en la formación dual</p>
-                        </div>
-                        <p class="text-extra-dark-gray">
-                            
-                            <p>
-                                <a class="btn btn-primary" href="certificados/EC1002.pdf" target="_blank">
-                                    Descargar Ficha
-                                </a>
-                            </p>
-                            
-                        </p>
-                    </div>
-                </div> -->
-               
 
-
-            </div>
-        </div>
-        <!--Se agrega un container para que no se desborden los elementos de las cards de estandares 4 >>>>>>>>>>-->
-        <div class="container ">
-            <div class="how-one-container">
-                
-                 <!--how it work Box-->
-                 <!-- <div class="col-md-4 col-sm-6 col-xs-12 product-item" category="sociales"> 
-                    <div class="how-box-one inner-box xs-margin-100px-bottom">
-                        <div class="icon-box bg-blue">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                        </div>
-                        <div class="text-large  text-extra-dark-gray margin-35px-bottom">
-                            <strong class="text-center">EC1025</strong>
-                            <p >Tutoría académica de la formación dual</p>
-                        </div>
-                        <p class="text-extra-dark-gray">
-                            <p>
-                                <a class="btn btn-primary" href="certificados/EC1025.pdf" target="_blank">
-                                  Descargar Ficha
-                                </a>
-                            </p>
-                        </p>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        <h6 class = "color_titulo hidden-scroll">
-         <strong style="">Visita nuestra página constantemente y descubre las certificaciones nuevas que podemos ofrecerte.</strong>
-        </h6>
-</section>
-<!-- start about -->
-<a id="cursos"></a>
-<section id="feature" class="how-it-work text-center  no-transition "> <!----------------ESTO ES UAN SECCION DEL MENU----------------------->
-    <h2 class="text-center text-extra-dark-gray margin-100px-bottom hidden-scroll"><b> Cursos y Talleres</b></h2>
-    <div class="container margin-50px-bottom ">
-        
-        <!--<div class="row">
-            <div class="col-lg-9 text-center center-col ">
-                <div class="sec-title margin-100px-bottom">-->
-                    <!-- <div class="text-large color_titulo margin-10px-bottom font-weight-400 ">
-                        <strong>Estandares</strong>
-                    </div> -->
-                    
-               <!-- </div>
-            </div>
-        </div>-->
-
-        <div class="how-one-container ">
-            
-            <!--how it work Box-->
-            <div class="col-md-4 col-sm-6 col-xs-12 hidden-scroll">
-                <div class="how-box-one inner-box xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i><!--https://fontawesome.com/v4/icons/-- ESTA ES UNA LISTA DE LOS ICONOS QUE PODEMOS USAR>-->
-                    </div>
-                    <div class="text-large  text-extra-dark-gray">
-
-                        <strong class="text-center">EC0076</strong>
-                        <p >Curso en línea del EC0076 “Evaluación de la competencia de candidatos con base en estándares de competencia”</p>
-                        <p style="background: red; color: aliceblue; box-shadow: 0 2px 7px #000 ;"><i>No disponible por el momento</i></p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        <p>
-                            <!-- <a class="btn btn-primary" href="images/logos/conocenos.svg" target="_blank">
-                              Descargar Ficha
-                            </a> -->
-                          </p>
-                          <button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                            <i class="fa fa-chevron-down text-white" aria-hidden="true"></i>
-                        </button>
-                          <div class="collapse" id="collapse3" style="transition: all ease 0.9s;">
-                            <div class="card card-body" style="transition: all ease 0.9s;">
-                                <p>
-                                    <br><b>Objetivo:</b> Proporcionar los conocimientos, habilidades y actitudes requeridos para la evaluación del Estándar de Competencia “Evaluación de la competencia de candidatos con base en Estándares de Competencia”.
-                                </p>
-                                
-                                <p>
-                                    <b>
-                                        Dirigido a:
-                                    </b>
-                                    Interesados en ser Evaluadores del Sistema Nacional de Competencias del CONOCER y contar con el certificado EC0076.
-                                </p>
-            
-                                <p>
-                                    <b>
-                                        Contenido: 
-                                    </b>
-                                    El Taller está estructurado en cinco bloques: 
-                                </p>
-                                
-                                <ol>
-                                    <li>Generalidades del proceso de evaluación de competencias </li>
-                                    <li>Preparación de la evaluación de competencias </li>
-                                    <li>Recopilación de las evidencias de la competencia del candidato </li>
-                                    <li>Emisión del juicio de la competencia del candidato </li>
-                                    <li>Presentación de los resultados de la evaluación de la competencia del candidato  </li>
-                                </ol>
-                                <b>
-                                    Duración: 40 horas 
-                                </b>
-                                <br>
-                                <b>
-                                    Modalidad: En línea 
-                                </b>
-                            </div>
-                          </div>
-                          
-                    </p>
-                </div>
-            </div>
-            <!--how it work Box-->
-            <div class="col-md-4 col-sm-6 col-xs-12 hidden-scroll">º
-                <div class="how-box-one inner-box ">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-university" aria-hidden="true"><i class="fa fa-street-view" aria-hidden="true"></i></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-85px-bottom">
-                       <strong> EC0217</strong>
-                       <p>Taller de alineación del EC</p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        
-                        <button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                            <i class="fa fa-chevron-down text-white" aria-hidden="true"></i>
-                        </button>
-                        
-                        <button type="button" class="btn bg-blue btn-primary" data-toggle="modal" data-target="#exampleModal" style="border-radius: 12px; box-shadow: 1px 1px 10px #000;">
-                            Solicitar informaciòn
-                        </button>
-                          <div class="collapse" id="collapse2" style="transition: all ease 0.9s;">
-                            <div class="card card-body">
-                                <p>
-                                    <b>Objetivo:</b> Los participantes reconocerán los elementos necesarios para impartir un curso de capacitación presencial, a través de una simulación que les permita obtener la certificación en el <b>EC0217</b> .
-                                </p>
-                                
-                                <p>
-                                    <b>
-                                        Dirigido a:
-                                    </b>
-                                    Personas con conocimientos y habilidades para desempeñarse como instructores en cursos de formación presencial o experiencia como instructor/profesor y/o Interesados en evaluar sus competencias laborales y contar con el certificado EC0362.
-                                </p>
-            
-                                <p>
-                                    <b>
-                                        Contenido: 
-                                    </b>
-                                    El Taller está estructurado en cuatro bloques: 
-                                </p>
-                                
-                                <ol>
-                                    <li>Preparación de las sesiones de cursos presenciales </li>
-                                    <li>Evaluar los cursos de capacitación </li>
-                                    <li>Conducir los cursos de capacitación </li>
-                                    <li>Informe Final </li>
-                                </ol>
-                                <b>
-                                    Duración: 6 horas 
-                                </b>
-                                <br>
-                                <b>
-                                    Modalidad: Presencial 
-                                </b>
-                            </div>
-                            
-                            <button type="button" class="btn bg-blue btn-primary" data-toggle="modal" data-target="#exampleModal" style="border-radius: 12px; box-shadow: 1px 1px 10px #000;">
-                                Solicitar informaciòn
-                            </button>
-                          </div>
-                          
-                          
-                    </p>
-                </div>
-            </div>
-            <!--how it work Box-->
-            <div class="col-md-4 col-sm-6 col-xs-12 hidden-scroll">
-                <div class="how-box-one inner-box ">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-building" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-55px-bottom">
-                       <strong>EC0782</strong>
-                       <p>Taller de alienación al Estándar de Competencia al EC0782</p>
-                    </div>
-                    <p class="text-extra-dark-gray">
-                        
-                        <button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            <i class="fa fa-chevron-down text-white" aria-hidden="true"></i>
-                        </button>
-                        
-                        <button type="button" class="btn bg-blue btn-primary" data-toggle="modal" data-target="#exampleModal" style="border-radius: 12px; box-shadow: 1px 1px 10px #000;">
-                            Solicitar informaciòn
-                        </button>
-                          <div class="collapse" id="collapseExample" style="transition: all ease 0.9s;">
-                            <div class="card card-body">
-                                <p>
-                                    <b>Objetivo:</b> Proporcionar los conocimientos, habilidades y actitudes requeridos para la evaluación del Estándar de Competencia “Aplicación de habilidades genéricas para la competitividad laboral”. 
-                                </p>
-                                
-                                <p>
-                                    <b>
-                                        Dirigido a:
-                                    </b>
-                                     Interesados en evaluar sus competencias laborales y contar con el certificado EC0782. 
-                                </p>
-            
-                                <p>
-                                    <b>
-                                        Contenido: 
-                                    </b>
-                                    El Taller está estructurado en tres bloques: 
-                                </p>
-                                
-                                <ol>
-                                    <li>Planeación estratégica y toma de decisiones </li>
-                                    <li>Trabajo en equipo </li>
-                                    <li>Innovación </li>
-                                </ol>
-                                <b>
-                                    Duración: 12 horas 
-                                </b>
-                                <br>
-                                <b>
-                                    Modalidad: Presencial 
-                                </b>
-                            </div>
-                            
-                            <button type="button" class="btn bg-blue btn-primary" data-toggle="modal" data-target="#exampleModal" style="border-radius: 12px; box-shadow: 1px 1px 10px #000;">
-                                Solicitar informaciòn
-                            </button>
-                          </div>
-                    </p>
-                </div>
-            </div>
-           
-        </div>
-        
-        </div>
-      
-</section>
-
-
-<h2 class=" text-center text-extra-dark-gray hidden-scroll">
-    <strong>Pasos del proceso de Evaluación</strong>
-</h2>
-<section class="container hidden-scroll">    
-    <div class="container">
-        <p>
-            Ponte en contacto con nosotros o asiste a nuestras instalaciones y regístrate en el Estándar de tu interés. Si deseas conocer todos los estándares registrados en el RENEC, da clic <strong><a href="http://conocer.gob.mx:6060/conocer/#/renec" target="_blank"> Aquí </a></strong>             
-        </p>
-
-    </div>
-    <br>
-    <div class="container">
-        <p>
-            <b>Ser parte del proyecto de la ECE FESE </b><br>
-            Deseas formar parte de este proyecto y ser un Centro Evaluador o Evaluador Independiente de la ECE, <strong><a href="#" data-toggle="modal" data-target="#exampleModal" style="border-bottom: 3px solid #00727C;">Contactanos</a></strong> y descubre cómo te puedes sumar.
-        </p>
-    </div>
-</section>
-<!-- about end -->
 
 <!-- team -->
 <!-------------------------------------------------------------------------------------------------------------->
 <!-- aqui empieza la parte de las empresas que trabajan con nosotros-->
 <!------------------------------------------------------------------------------------------------------->
 
-<section id="proceso" name="proceso" class="no-padding container ">
-    <div  class="half-section hidden-scroll">
-      <div class="container-fluid">
-          <div class="row text-center container">
-            <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                <strong >Proceso de evaluación </strong>
-            </h3>  
-              <div class="row container col-md-12 hidden-scroll " >
-                <!-- Ultima img -->
-                <div class="wrap">
 
-                
-                    <div class="col-sm-3 hidden-scroll tarjeta-wrap">
-                        <div class="tarjeta hidden-scroll ">
-                            <div class="adelante"   style="background-image: url('pasos/Paso1_a.png'); "></div>
-                            <div class="atras" style="background-image: url('pasos/Paso1_b.png') ; " ></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 hidden-scroll tarjeta-wrap">
-                        <div class="tarjeta hidden-scroll ">
-                            <div class="  adelante"   style="background-image: url('pasos/Paso2_a.png'); "></div>
-                            <div class="atras " style="background-image: url('pasos/Paso2_b.png') ; "></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3 hidden-scroll tarjeta-wrap">
-                        <div class="tarjeta hidden-scroll">
-                            <div class="  adelante"   style="background-image: url('pasos/Paso3_a.png'); "></div>
-                            <div class="atras " style="background-image: url('pasos/Paso3_b.png') ; "></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3 hidden-scroll tarjeta-wrap">
-                        <div class="tarjeta hidden-scroll">
-                            <div class="  adelante"   style="background-image: url('pasos/Paso4_a.png'); "></div>
-                            <div class="atras " style="background-image: url('pasos/Paso4_b.png') ; "></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3 hidden-scroll tarjeta-wrap">
-                        <div class="tarjeta hidden-scroll">
-                            <div class=" adelante"   style="background-image: url('pasos/Paso5_a.png'); "></div>
-                            <div class="atras " style="background-image: url('pasos/Paso5_b.png') ; "></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 hidden-scroll tarjeta-wrap">
-                        <div class="tarjeta hidden-scroll">
-                            <div class=" adelante"   style="background-image: url('pasos/Paso6_a.png'); "></div>
-                            <div class="atras " style="background-image: url('pasos/Paso6_b.png') ; "></div>
-                        </div>
-                    </div>
-                    
-                <!-- <div  onclick="toggleWhatsAppPopup()" class="container col-sm-3 hidden-scroll procesp-ev " style="background-image: url('images/index/paso6.svg'); content: Contactabos; ">  
-                    <div class="whatsapp-button-card">  
-                        <b style="background: #00b341; border-radius: 12px; padding-right: 10px;  ">
-                            contactanos 
-                        </b>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
-                    <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
-                    </svg>
-                    </div>
-                </div> -->    
-            </div>
-                
-            <a class="btn btn-primary-red" href="pasos/Proceso-de-evaluación.pdf" target="_blank">  
-                <!----FALTA AGREGAR LAS FICHAS DE INFORMACION--->
-                Descargar Ficha
-            </a><br>
-                <!-------------------------------------------------------------------------------------------------->
-                <!-- <div class="about-image sangriadDivIzq hover-effect contenedorDescripcion"> -->
-                    <!-- <img alt="asociación civil" src="images/index/Infografias.png" class="equalheight"  >  AQUI ES LA PRIMERA PARTE DE "QUE HACEMOS"-------                                                -->
-                    <!-- <img alt="asociación civil" src="images/steps.svg" class="equalheight"  >  AQUI ES LA PRIMERA PARTE DE "QUE HACEMOS"-------                                                -->
-                <!-- </div> -->
-                <!---------------------------------------------------------------------------------------------------->
-              </div>
-              <!-- <div class="col-md-4 sm-padding-50px-tb hidden-scroll"> -->
-                  <!-- <div class="split-box text-center center-block equalheight"> -->
-                      <!-- <div class="about-box">
-                          <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                              <strong>Proceso de evaluación </strong>
-                          </h3>    -->
-                            <!-- <a class="btn btn-primary" href="images/logos/conocenos.svg" target="_blank">   -->
-                                <!----FALTA AGREGAR LAS FICHAS DE INFORMACION--->
-                                <!-- Descargar Ficha -->
-                            <!-- </a><br> -->
-                          <!--<a href="#." class="btn btn-transparent-blue btn-rounded btn-large margin-20px-top">Ir a</a>--><!--QUITO EL BOTON YA QUE ESTA  ESTA SECCION ES SOLO INFORMATIVA-->
-                      <!-- </div> -->
-                  <!-- </div> -->
-              <!-- </div> -->
-          </div>
-      </div>
-  </div>
-  <hr class="hidden-scroll" style="border-bottom: 0.5px solid #000; ">
-  <div class="half-section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4  pull-right sm-float-none certificado-style hidden-scroll"> 
-            
-                
-                <a href="https://www.conocer.gob.mx">
-                <div class="about-image hover-effect" >
-                        <img alt="Estudiante" src="images/logos/redconocer.svg" class="equalheight">
-                </div>
-                </a>
-            
-            </div>
-            <div class="col-md-7 sm-padding-50px-tb hidden-scroll">
-                <div class="split-box text-center center-block equalheight">
-                    <div class="about-box">
-                        <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">
-                             <!--Aqui podemos agregar un texto arriba del titulo, este texto va sin la etiqueta <p>-->
-                        </div>
-                        <h3 class=" alt-font text-extra-dark-gray font-weight-300">
-                            <strong>Consejo Nacional de Normalización y Certificación de Competencias Laborales</strong>
-                        </h3>
-                        
-                        <p text-extra-dark-gray>
-                            Para consultar más información acerca de evalucaciones y certificaciones de competencias de personas, a los sectores productivos,social, educativo y de gobierno del pais ingresa 
-                            <!-- <a href="https://www.conocer.gob.mx" style="border-bottom: 5px solid #00727C;">aqui</a> -->
-                            <!-- <button type="button" class="btn btn-primary" id="abrirModal2">
-                                Aquí
-                              </button> -->
-
-                              
-                              
-
-                        </p>
-                        <p class="text-center" style="margin-left: 50px;">
-                            <b style="border-left: 10px solid #00727C; padding: 4px ;">Horarios de atención</b> <br><i>lunes a jueves de 9:00 a 18:30 horas y viernes de 9:00 a 15:00 horas </i><br><br>
-                            <b style="border-left: 10px solid #00727C; padding: 4px;">Telefono</b> <br> <i>01 800 288 2666</i> y <i>55 22 82 02 00</i><br><br>
-                            <b style="border-left: 10px solid #00727C; padding: 4px;">correo</b> <br> <i><a href="mailto:contacto@conocer.gob.mx">contacto@conocer.gob.mx</a></i>
-                        </p>
-                        <!--<a href="#." class="btn btn-transparent-blue btn-rounded btn-large margin-20px-top">Informarte</a>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
 <!-- Ventana modal -->
 <div class="modal" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -1249,7 +666,7 @@
 
 
 <!--footer Start-->
-<footer id="contact" class="FondoVerdeFese padding-30px-tb ">  <!--la clase de color negro es:bg-extra-dark-gray -->
+<footer id="contact" class="FondoVerdeFese padding-30px-tb " style="margin-top: -100px;">  <!--la clase de color negro es:bg-extra-dark-gray -->
     <div class="footer-widget-area">
         <div class="container">
             <div class="row">
