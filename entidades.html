@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Un comentario perron -->
+
+<head>
+    <title>Entidades certificadoras &raquo; </title>
+    <meta charset="UTF-8">
+    <meta name="language" content="es-MX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="entidades/css/style.css">
+    <link rel="stylesheet" href="entidades/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style-stands.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_navs.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="entidades/js/scrollbooster.min.js"></script>
+
+
+    <style>
+        .texto_blanco
+        {
+            color: white;
+            font-size: 12px; 
+        }
+        hr 
+        {
+            height: 5px;
+            width: 25%;
+            background-color: white;
+        }
+        .nav 
+        {
+            background-color: #ff8e90; /* Cambia esto al color de fondo que desees */
+          
+        }
+
+        .fondo_rojo
+        {
+            background-color: #b10000;
+            width: 100%;            
+            margin-bottom: 2%;
+            align-items: left;
+            padding-left: 0;
+            
+            
+        }
+        .fondo_gris
+        {
+            background-color: #E5E4E4;
+            margin-top: -5%;
+            width: 100%;
+            padding-left: 0;
+        }
+
+        .dificultad 
+        {
+            text-align: center; /* Centra los elementos en la fila */
+        }
+
+        .dificultad i 
+        {
+            /*display: inline-block; /* Muestra los elementos en una misma línea */
+            margin: 0 2px; /* Agrega un pequeño margen entre las barras */
+            color: black; /* Cambia el color de las barras */
+            font-size: 20px; /* Cambia el tamaño de las barras */
+        }
+        .tituloEC
+        {
+            width: 20%;
+        }
+
+        .contenedor_entidad_izquierda
+       {
+        border-radius: 12px; 
+        box-shadow: 1px 2px 10px #ccc;
+        margin-left: 5%;
+        width: 60%;
+        
+       }
+        .contenedor_entidad_derecha
+       {
+        border-radius: 12px; 
+        box-shadow: 1px 2px 10px #ccc;
+        margin-right: 5%;
+        
+       }
+
+       .contenedor_entidad
+       {
+        border-radius: 12px; 
+        box-shadow: 1px 2px 10px #ccc;
+        
+        
+       }
+
+
+    </style>
+    
+   
+
+</head>
+
+<body class="page-template page-template-auditorio page-template-auditorio-php page page-id-304">
+    <!-- Menu de navegación -->
+    <div class="container-fluid mx-0 px-0 fondo_rojo">
+        <!--<div class="container">-->
+            <!---------------------------------------->
+            <div>
+                <br>
+                <h3 class="text-center texto_blanco">
+                    Nuestros estándares de competencia 
+                </h3>
+                <hr>
+            </div>
+            <nav class="nav justify-content-center ">                
+                <a class="nav-link texto_blanco" onclick="mostrarDiv('todos')">Todos</a>
+                <a class="nav-link texto_blanco" onclick="mostrarDiv('instituciones')">Instituciones de educación</a>
+                <a class="nav-link texto_blanco" onclick="mostrarDiv('estudiantes')">Estudiantes</a>
+                <a class="nav-link texto_blanco" onclick="mostrarDiv('empresas')">Empresas</a>
+            </nav>  
+            <!--------------------------------------->
+        <!--</div>-->
+    </div>
+    <div class="container-fluid px-0">
+
+        <!---------------------videos de las regiones --------------------------------->
+                  
+        <div class="container-fluid" style="padding-top: 5%">           
+                <section>
+                    <div id="accordion">
+                        <div class="row justify-content-between">
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad_izquierda">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.01</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios  </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <!------------------------------------------------------------------------------------------------------->
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad ">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.02</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad_derecha">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.03</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios  </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>       
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad_izquierda">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.04</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios  </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <!------------------------------------------------------------------------------------------------------->
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad ">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.05</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad_derecha">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.06</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios  </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>       
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad_izquierda">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.07</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios  </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <!------------------------------------------------------------------------------------------------------->
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad ">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.08</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad_derecha">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.09</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios  </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>       
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="pad col-md-6 col-lg-4 col-xl-3 col-12 text-center mb-3 contenedor_entidad_izquierda">
+                                <div class="fondo_rojo tituloEC">
+                                    <p class="texto_blanco">EC0000.010</p>
+                                </div>
+                                <img src="images/entidad_certificadora.png" class="img-fluid" alt="Responsive image">
+                                <div class="fondo_rojo">
+                                    <p class="texto_blanco"><br>Coordinación de la formación dual de educandos en las organizaciones productivas y de servicios  </p><br>
+                                </div>
+                                <div class = "fondo_gris" >
+                                    <div class="botones">
+                                        <strong><br><p>Módulo ocupacional:</strong> Auxiliares de archivo y registro</p>
+                                        <strong><p>Nivel: </strong>Regular</p>
+                                    </div>
+                                    <div class="dificultad">
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="fas fa-square"></i> <!-- Barra llena -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                        <i class="far fa-square"></i> <!-- Barra vacía -->
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!------------------------------------------------------------------------------------------------------->
+                        </div>
+                    </div>
+                </section>
+        </div>  
+        </div>
+      <!------------------------------------------->
+    </div>
+
+    <script>
+        function mostrarDiv(idDiv) {
+            // Ocultar todos los divs con la clase 'contenido'
+            var divs = document.getElementsByClassName('contenido');
+            for (var i = 0; i < divs.length; i++) {
+                divs[i].style.display = 'none';
+            }
+    
+            // Mostrar el div correspondiente al enlace clicado
+            document.getElementById(idDiv).style.display = 'block';
+        }
+    </script>
+</body>
+
+
+</html>
